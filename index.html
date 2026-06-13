@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Inteligente</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Campo Inteligente</h1>
+        <p>Tecnologia e sustentabilidade caminhando juntas no campo.</p>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sustentavel">Agricultura Sustentável</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#preservacao">Preservação</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <article>
+                <h2>Agro forte, futuro sustentável</h2>
+
+                <p>
+                    A agricultura é fundamental para a produção de alimentos,
+                    mas precisa acontecer de forma responsável. O uso da
+                    tecnologia ajuda a aumentar a produtividade e reduzir os
+                    impactos ambientais.
+                </p>
+            </article>
+        </section>
+
+        <section id="sustentavel">
+            <article>
+                <h2>O que é Agricultura Sustentável?</h2>
+
+                <p>
+                    É uma forma de produzir alimentos respeitando os recursos
+                    naturais, preservando o solo, economizando água e reduzindo
+                    a poluição ambiental.
+                </p>
+            </article>
+        </section>
+
+        <section id="tecnologias">
+            <article>
+                <h2>Tecnologias no Campo</h2>
+
+                <div class="cartoes">
+
+                    <div class="cartao">
+                        <h3>💧 Irrigação Inteligente</h3>
+                        <p>
+                            Sistemas automáticos evitam desperdício de água.
+                        </p>
+                    </div>
+
+                    <div class="cartao">
+                        <h3>🚁 Drones Agrícolas</h3>
+                        <p>
+                            Monitoram plantações e ajudam na tomada de decisões.
+                        </p>
+                    </div>
+
+                    <div class="cartao">
+                        <h3>📡 Sensores</h3>
+                        <p>
+                            Avaliam solo, umidade e temperatura em tempo real.
+                        </p>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+        <section id="beneficios">
+            <article>
+                <h2>Benefícios para o Meio Ambiente</h2>
+
+                <ul>
+                    <li>Economia de água;</li>
+                    <li>Redução do uso de agrotóxicos;</li>
+                    <li>Preservação do solo;</li>
+                    <li>Maior eficiência produtiva;</li>
+                    <li>Menor impacto ambiental.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="preservacao">
+            <article>
+                <h2>Recursos Naturais e sua Preservação</h2>
+
+                <p>
+                    Preservar água, solo, florestas e biodiversidade é essencial
+                    para garantir a produção de alimentos para as próximas
+                    gerações.
+                </p>
+
+                <div class="grafico">
+                    <h3>Exemplo de Benefícios da Tecnologia</h3>
+
+                    <div class="barra agua">Economia de Água</div>
+                    <div class="barra solo">Proteção do Solo</div>
+                    <div class="barra producao">Aumento da Produção</div>
+                </div>
+
+            </article>
+        </section>
+
+        <section id="quiz">
+            <article>
+
+                <h2>Quiz: Você conhece o Campo Inteligente?</h2>
+
+                <form id="formularioQuiz">
+
+                    <div class="pergunta">
+                        <p>1. Qual tecnologia ajuda a economizar água?</p>
+
+                        <label>
+                            <input type="radio" name="q1" value="certo">
+                            Irrigação Inteligente
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q1" value="errado">
+                            Queimada
+                        </label>
+                    </div>
+
+                    <div class="pergunta">
+                        <p>2. Os drones agrícolas servem para:</p>
+
+                        <label>
+                            <input type="radio" name="q2" value="certo">
+                            Monitorar plantações
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q2" value="errado">
+                            Poluir rios
+                        </label>
+                    </div>
+
+                    <div class="pergunta">
+                        <p>3. Agricultura sustentável busca:</p>
+
+                        <label>
+                            <input type="radio" name="q3" value="certo">
+                            Produzir preservando o meio ambiente
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q3" value="errado">
+                            Desmatar áreas naturais
+                        </label>
+                    </div>
+
+                    <button type="button" id="botaoQuiz">
+                        Ver Resultado
+                    </button>
+
+                </form>
+
+                <div id="resultado"></div>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto Campo Inteligente - Concurso Agrinho 2026
+        </p>
+    </footer>
+
+    <div class="acessibilidade">
+
+        <button id="aumentarFonte">A+</button>
+
+        <button id="diminuirFonte">A-</button>
+
+        <button id="altoContraste">Contraste</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
