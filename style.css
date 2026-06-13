@@ -1,1 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background:#ffffff;
+    color:#333;
+    transition:0.3s;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:30px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    margin-bottom:15px;
+    color:#2e7d32;
+}
+
+.cartoes{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.cartao{
+    flex:1;
+    min-width:220px;
+    background:#f0f0f0;
+    padding:15px;
+    border-radius:10px;
+}
+
+.grafico{
+    margin-top:20px;
+}
+
+.barra{
+    color:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+}
+
+.agua{
+    width:90%;
+    background:#4caf50;
+}
+
+.solo{
+    width:80%;
+    background:#616161;
+}
+
+.producao{
+    width:95%;
+    background:#2e7d32;
+}
+
+.pergunta{
+    margin-bottom:20px;
+}
+
+.pergunta label{
+    display:block;
+    margin-top:8px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+#botaoQuiz{
+    background:#2e7d32;
+    color:white;
+}
+
+#resultado{
+    margin-top:20px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#2e7d32;
+    color:white;
+}
+
+.acessibilidade{
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+.alto-contraste{
+    background:black;
+    color:white;
+}
+
+.alto-contraste h2{
+    color:yellow;
+}
+
+@media(max-width:768px){
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    .cartoes{
+        flex-direction:column;
+    }
+
+}
